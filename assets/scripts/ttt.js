@@ -206,7 +206,7 @@ function turboCircle() {
                 let payments = response.payments;
 
                 // 2 * 15 = 30 т.е. по 30 сек будет держать получается процент
-                if (counter == 2 * maxCounter) {
+                if (counter == 4 * maxCounter) {
                     turboLog("#message", "Нет пока сделок.");
                     changePercentage();
                     counter = 0;
